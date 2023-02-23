@@ -1,0 +1,18 @@
+footer {
+  background-color: var(--color-232f3e);
+  .footer-top-data {
+    img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  .input-group-text {
+    background-color: var(--color-232f3e);
+    color: white;
+    padding: 8px 17px;
+  }
+  .footer-item:hover {
+    color: var(--color-febd69) !important;
+    transition: all 0.3s;
+  }
+}
