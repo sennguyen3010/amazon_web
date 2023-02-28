@@ -1,0 +1,75 @@
+.detail {
+  margin-top: 50px;
+  .detail-img {
+  }
+  .detail-content {
+    .product-name {
+      font-size: 32px;
+      padding-bottom: 20px;
+      font-weight: 500;
+    }
+    .product-price {
+      color: var(--color-d43232);
+      font-size: 22px;
+      font-weight: 500;
+    }
+    .capacity {
+      padding: 12px 0;
+
+      .capacity-group {
+        list-style: none;
+
+        .capacity-item {
+          min-width: 120px;
+          background-color: transparent;
+          border: 1px solid rgba(0, 0, 0, 0.12);
+          text-align: center;
+          padding: 8px 29px;
+          border-radius: 4px;
+          margin-right: 12px;
+          font-size: 14px;
+          cursor: pointer;
+
+          &_text {
+            color: rgba(0, 0, 0, 0.8);
+          }
+        }
+      }
+      .active {
+        background-color: var(--color-0071e3) !important;
+        span {
+          color: #fff !important;
+        }
+      }
+    }
+    .detail-btn-add {
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #fff;
+      border: 1px solid #dcdfe6;
+      background-color: var(--color-0071e3);
+      width: 330px;
+      border-radius: 4px;
+    }
+    .stock {
+      margin-bottom: 16px;
+
+      &-icon {
+        width: 24px;
+        margin-right: 14px;
+      }
+      &-text {
+        font-weight: 700;
+        color: #03b518;
+        font-size: 20px;
+      }
+    }
+  }
+  .des {
+    margin-bottom: 20px;
+  }
+  .capacity-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}

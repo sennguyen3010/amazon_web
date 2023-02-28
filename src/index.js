@@ -15,6 +15,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import UserTemplate from './templates/user/UserTemplate';
 import { store } from './redux/configStore';
+import Detail from './pages/Detail';
 
 export const history = createBrowserHistory();
 
@@ -26,6 +27,7 @@ root.render(
         <Route path="" element={<UserTemplate />}>
           <Route index element={<Home />}></Route>
           <Route path="about" element={<About />}></Route>
+          <Route path="detail" element={<Detail />}></Route>
         </Route>
       </Routes>
     </HistoryRouter>

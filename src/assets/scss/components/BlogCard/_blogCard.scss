@@ -1,0 +1,13 @@
+.blog-card {
+  background-color: white;
+  border-radius: 10px;
+
+  .blog-img {
+    img {
+      border-radius: 10px 10px 0 0;
+    }
+  }
+  .blog-detail {
+    padding: 15px;
+  }
+}

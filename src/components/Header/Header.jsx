@@ -10,7 +10,9 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <NavLink className="text-white">Amazon</NavLink>
+                <NavLink to="/" className="text-white">
+                  Amazon
+                </NavLink>
               </h2>
             </div>
             <div className="col-5">
@@ -91,8 +93,11 @@ export default function Header() {
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <NavLink className="dropdown-item text-white" to="/">
-                          Action
+                        <NavLink
+                          className="dropdown-item text-white"
+                          to="detail"
+                        >
+                          Detail
                         </NavLink>
                       </li>
                       <li>
