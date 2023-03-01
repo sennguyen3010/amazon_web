@@ -59,7 +59,7 @@ export default function Header() {
                 </div>
 
                 <div>
-                  <NavLink className="header-upper-links_item">
+                  <NavLink to="cart" className="header-upper-links_item">
                     <img src="img/cart.svg" alt="cart" />
                     <div className="d-flex flex-column">
                       <span className="badge bg-white text-dark">0</span>
